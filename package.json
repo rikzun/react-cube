@@ -1,0 +1,31 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "serve": "npm run build && webpack serve",
+    "build": "DEL /F /Q dist || rm -f dist/* && webpack",
+    "localtunnel": "lt --port 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.3",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
